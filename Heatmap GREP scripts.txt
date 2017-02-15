@@ -1,0 +1,16 @@
+Here’s some heat map scripts to speed up colouring in those backgrounds. 
+
+To load them: 
+Go to Window > Utilities > Scripts and open that palette.
+Right click where it says User and Open in Finder.
+Drag your scripts in there and they should automatically appear in the finder.
+
+To use them:
+
+The scripts look for a number with a percentage after it then a loads a cell style into that cell. 
+
+You’ll need to create swatches and cell styles for each colour range e.g. Red for 0to49, orange for 50to59, yellow for 60to69 and green for 70to100. Make sure you call the cell styles as highlighted as that’s what the script looks for, otherwise nothing will happen.
+
+The allColours.jsx script is easiest to use as you click an cell in the table and then double click to run it and it should do them all in one go. 
+
+The grepping0-49.jsx do the same but for individual colours. HOWEVER they do the entire document so they are good for chunky sets of heat maps. You will also need to watch out if you have smaller tables under pie charts as it will do them as well – it’s worth saving the heat maps in a separate document then moving them back in. 
