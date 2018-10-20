@@ -1,0 +1,7 @@
+# Find returns in single paragraph
+
+This is a handy GREP for InDesign for using when copying plain text into a document that has returns in a paragraph that you want rid of. BUT it will only check a paragraph and not remove the returns separating the paragraph if there is no Space After set for the paragraph.
+
+(?<!~b)~b(?!~b)
+
+Originally found in the comments here: https://indesignsecrets.com/remove-multiple-returns-and-replace-with-space-between-paragraphs.php
