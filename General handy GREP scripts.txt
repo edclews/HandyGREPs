@@ -1,0 +1,16 @@
+# Add comma to thousands and millions
+
+Find what: \d(?=(\d{3})+\b)
+Change to: $0,
+
+# Find and replace (words in brackets)
+
+Find what: \((.+?)\)
+
+# Find pasted inline bullet in table cell
+
+Find what: ^~a\h
+
+# Find return in paragraph, replace with space
+
+Find what: (?<!~b)~b(?!~b)
